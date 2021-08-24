@@ -1,14 +1,14 @@
-output "arn" {
+output "Bucket ARN" {
   description = "Name of the S3 bucket"
   value       = aws_s3_bucket.s3.arn
 }
 
-output "bucket" {
+output "Bucket Name" {
   description = "Name of the S3 bucket"
   value       = aws_s3_bucket.s3.bucket
 }
 
-output "tags_all" {
+output "Name Tag" {
   description = "Name of the S3 bucket"
   value       = aws_s3_bucket.s3.tags_all.Name
 }
