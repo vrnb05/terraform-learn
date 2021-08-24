@@ -1,4 +1,4 @@
-output "S3 Bucket name" {
+output "bucket" {
   description = "Name of the S3 bucket"
-  value       = aws_s3_bucket.s3.id
+  value       = aws_s3_bucket.s3.bucket
 }
