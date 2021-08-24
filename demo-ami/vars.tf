@@ -15,3 +15,9 @@ variable "AMIS" {
     us-west-2 = "ami-08d70e59c07c61a3a"
   }
 }
+
+variable "instance-name" {
+   description = "ec2 instance"
+   type = string
+   default = "Varun - this is from terraform variable"
+}
