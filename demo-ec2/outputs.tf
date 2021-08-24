@@ -1,4 +1,4 @@
-output "instance_id" {
+output "instance_id-test" {
   description = "ID of the EC2 instance"
   value       = aws_instance.app_server.id
 }
